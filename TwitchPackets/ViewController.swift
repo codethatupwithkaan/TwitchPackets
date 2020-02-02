@@ -3,7 +3,6 @@
 //  TwitchPackets
 //
 //  Created by Kaan on 2020-01-31.
-//  Copyright © 2020 Kaan. All rights reserved.
 //
 
 import UIKit
