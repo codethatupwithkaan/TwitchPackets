@@ -8,20 +8,16 @@
 
 import UIKit
 
-//You have to write a network packet parser.  Your parser receives packets with the following structure.  The start flag means it is the start of a sequence of data and the end flag means it is the end of a sequence of data.  You must have all of the packets sorted by index between the start and end packet to complete the sequence. The packets can come in any order.
-//Complete the Receiver class so that the onSequenceComplete function is called with the Packets in sorted order when a sequence is complete.
-//
-//
-//1, 2S, 5E, 3, 4, 6
-//
-//1, 2S, 3, 4, 5E, 6
-//
-//6, 2S, 5E, 3, 4, 1
-//
-//2S, 5E, 3, 4
-//
-//*/
-//
+/// TWITCH INTERVIEW QUESTION
+
+///You have to write a network packet parser.  Your parser receives packets with the following structure.  The start flag means it is the start of a sequence of data and the end flag means it is the end of a sequence of data.  You must have all of the packets sorted by index between the start and end packet to complete the sequence. The packets can come in any order.
+///Complete the Receiver class so that the onSequenceComplete function is called with the Packets in sorted order when a sequence is complete.
+
+///Example Packets
+///1, 2S, 5E, 3, 4, 6
+///1, 2S, 3, 4, 5E, 6
+///6, 2S, 5E, 3, 4, 1
+///2S, 5E, 3, 4
 
 class ViewController: UIViewController {
 
